@@ -1,0 +1,14 @@
+.wrapper{
+    margin-top: 70px;
+    height: 80vh;
+    margin-left: 18.75%;
+    margin-right: 18.75%;
+    position: relative;
+}
+.search__input{
+    width: 70%;
+    height: 30px;
+}
+.search__text_wrap{
+    margin-top: 50px;
+}

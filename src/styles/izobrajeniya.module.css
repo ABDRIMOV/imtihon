@@ -1,0 +1,75 @@
+.wrapper{
+
+  margin-top: 70px;
+  height: 100vh;
+  margin-left: 18%;
+  margin-right: 18.75%;
+  position: relative;
+  display: grid;
+  grid-template-columns: 20% 70%;
+  column-gap: 10%
+  ;
+}
+.vlink_wrap{
+  position: relative;
+
+margin-top: 80px;
+}
+.vlink1, .vlink2, .vlink3, .vlink4, .vlink5{
+  text-decoration: none;
+  color: black;
+position: absolute;
+}
+.vlink1{
+  top: 30px;
+}
+.vlink2{
+  top: 70px;
+}
+.vlink3{
+  top: 110px;
+}
+.vlink4{
+  top: 150px;
+}
+.vlink5{
+  top: 190px;
+}
+.card_wrap{
+  display: grid;
+  grid-template-columns: 90%;
+}
+.card{
+  border: 1px solid gray;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  position: relative;
+  margin-top: 50px;
+}
+.card__text_wrap{
+margin-left: 20px;
+}
+.card__img{
+  height: 200px;
+  width: 100%;
+}
+@media only screen and (max-width:1000px){
+  .card, .card__img{
+      height: 150px;
+  }
+  .wrapper{
+      grid-template-columns: 20% 60%;
+  }
+  }
+  @media only screen and (max-width:640px){
+      .wrapper{
+          grid-template-columns: 30% 50%;
+      }
+  }
+  @media only screen and (max-width:450px){
+ 
+   .wrapper{
+      margin-right: 16%;
+   }
+  }

@@ -1,0 +1,17 @@
+.wrapper{
+    width: 100%;
+    position: relative;
+
+}
+.wrap{
+
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top:150px;
+}
+.map{
+    margin-top: 80px;
+}
+.logo{
+    font-size: 40px;
+}

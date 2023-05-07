@@ -1,0 +1,83 @@
+.wrapper{
+ 
+    margin-top: 70px;
+    /* height: 120vh; */
+    margin-left: 18%;
+    margin-right: 18.75%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 20% 70%;
+    column-gap: 10%
+    ;
+}
+.vlink_wrap{
+    position: relative;
+
+  margin-top: 80px;
+}
+.vlink1, .vlink2, .vlink3, .vlink4, .vlink5{
+    text-decoration: none;
+    color: black;
+position: absolute;
+}
+.vlink1{
+    top: 30px;
+}
+.vlink2{
+    top: 70px;
+}
+.vlink3{
+    top: 110px;
+}
+.vlink4{
+    top: 150px;
+}
+.vlink5{
+    top: 190px;
+}
+.card1{
+    border: 1px solid grey;
+    width: 50%;
+    border-radius: 20px;
+    height: 200px;
+    padding-left: 5%;
+}
+.card1__title{
+    font-size: 32px;
+}
+.my_card__tex_wrap{
+    width: 50%;
+    position: relative;
+    margin-top: 80px;
+}
+.text_info{
+    font-size: 12px;
+    color: #5A5A5A;
+}
+@media only screen and (max-width:1000px){
+.card1{
+    height: 150px;
+}
+.wrapper{
+    grid-template-columns: 20% 60%;
+}
+.card1__title{
+    font-size: 24px;
+}
+}
+@media only screen and (max-width:640px){
+    .wrapper{
+        grid-template-columns: 30% 50%;
+    }
+    .card1__title{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:450px){
+ .card1__title{
+    font-size: 16px;
+ }
+ .wrapper{
+    margin-right: 16%;
+ }
+}

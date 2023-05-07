@@ -1,0 +1,55 @@
+.burgerMenu{
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    width:30% ;
+    background: #bababa;
+    color: aliceblue;
+    height: 100vh;
+    top: 80px;
+    padding-left: 0;
+    padding-top: 10px;
+}
+.wrapper{
+    margin-top: 150px;
+}
+.search_wrap{
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.search_input{
+  border: none;
+  outline: none;
+  height: 20px;
+  width: 100%;
+  background-color: #bababa;
+}
+
+.link1, .link2, .link3, .link4, .link5{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+}
+.link1{margin-top: 20px; border: 0; background-color: #bababa; font-size: 15px;position: absolute; left: 18;}
+.link2{margin-top: 50px;}
+.link3{margin-top: 80px;}
+.link4{margin-top: 110px;}
+.link5{margin-top: 140px;}
+
+.link__wrap{
+  width:100%;
+  
+}
+  .burgerMenu{
+    display: none;
+
+  }    
+
+@media  screen and (max-width:1000px) {
+    .burgerMenu{
+      display: block;
+      
+    }    
+  }

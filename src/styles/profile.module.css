@@ -1,0 +1,89 @@
+.wrapper{
+    margin-top: 70px;
+    height: 60vh;
+    margin-left: 18%;
+    margin-right: 18.75%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 20% 70%;
+    column-gap: 10%
+    ;
+}
+.active{
+    display: none;
+}
+.vlink_wrap{
+    position: relative;
+  margin-top: 80px;
+}
+.vlink1, .vlink2, .vlink3, .vlink4, .vlink5{
+    text-decoration: none;
+    color: black;
+position: absolute;
+}
+.vlink1{
+    top: 30px;
+}
+.vlink2{
+    top: 70px;
+}
+.vlink3{
+    top: 110px;
+}
+.vlink4{
+    top: 150px;
+}
+.vlink5{
+    top: 190px;
+}
+.wrap{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 10%;
+}
+
+.profile__input, .profile__input1, .profile__input2{
+    width: 100%;
+    height: 30px;
+    border: 0.5px solid grey;
+}
+.profile__input{
+    margin-top: 40px;
+
+}
+.profile__input1, .profile__input2{
+    margin-top: 20px;
+}
+.profile__btn{
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+}
+@media only screen and (max-width:1000px){
+
+.wrapper{
+    grid-template-columns: 20% 60%;
+}
+.profile__btn{
+    height: 20px;
+}
+}
+@media only screen and (max-width:840px){
+    .profile__input1{
+        margin-top: 30px;
+    }
+    .profile__input2{
+        margin-top: 20px;
+    }
+.profile__title1{
+    font-size: 12px;
+}
+}
+@media only screen and (max-width:640px){
+    .wrapper{
+        grid-template-columns: 30% 50%;
+    }
+
+}
